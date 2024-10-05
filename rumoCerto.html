@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumo certo</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz@0,5..1200;1,5..1200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="cabecalho">
+        <div class="container p-2">
+            <div class="navbar navbar-expand-lg">
+                <div class="container t-color">
+                    <h1 class="h1">Rumo certo</h1>
+                    <button data-bs-toggle="collapse" data-bs-target="#menu" type="button"  class="navbar-toggler">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                        <ul class="nav navbar-nav fs-5 nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#inicio">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#destinos">Destinos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#contato">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#header">
+        <section id="inicio">
+            <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 img-fluid" src="https://images.unsplash.com/photo-1502920514313-52581002a659?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="carousel-caption">
+                            <h2>Viaje pelo Mundo</h2>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid" src="https://images.unsplash.com/photo-1446160657592-4782fb76fb99?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="carousel-caption">
+                            <h2>Realize Seus Sonhos</h2>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid" src="https://plus.unsplash.com/premium_photo-1681487906725-ecd65970ac66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="carousel-caption">
+                            <h2>Localidades Diversas</h2>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#carousel">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="d-block t-color m-4 p-4 bg text-center">Destinos</h2>
+
+        <section class="destinos" id="destinos">
+            <div class="container cards">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                            <article class="card h-100 bg">
+                                <header class="card-header">
+                                   <h3 class="t-color">Japão</h3>
+                                </header>
+                                <img src="https://plus.unsplash.com/premium_photo-1661964177687-57387c2cbd14?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title t-color">
+                                        Explorando a Terra do Sol Nascente
+                                    </h4>
+                                    <div class="card-text t-color">
+                                        Mergulhe na cultura milenar do Japão, visite templos históricos, experimente a culinária local e vivencie a vibrante vida urbana de Tóquio
+                                    </div>
+                                    <button class="btn d-block mt-3 btn-light">
+                                        Conferir
+                                    </button>
+                                </div>
+                                <footer class="card-footer">
+
+                                </footer>
+                            </article> 
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                            <article class="card h-100 bg">
+                                <div class="card-header">
+                                    <h3 class="t-color">Suíça</h3>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1530638458177-fcc275860f8b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title t-color">
+                                        Explorando o Coração da Europa
+                                    </h4>
+                                    <div class="card-text t-color">
+                                        Conheça os Alpes suíços, com suas paisagens de montanhas cobertas de neve, lagos cristalinos e vilarejos charmosos. Um destino perfeito para amantes de esportes de inverno e relaxamento em meio à natureza
+                                    </div>
+                                    <button class="btn d-block mt-3 btn-light">
+                                        Conferir
+                                    </button>
+                                </div>
+                                <footer class="card-footer">
+
+                                </footer>
+                            </article>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                            <article class="card h-100 bg">
+                                <div class="card-header">
+                                    <h3 class="t-color">Noruega</h3>
+                                </div>
+                                <img src="https://plus.unsplash.com/premium_photo-1668017178993-4c8fc9f59872?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title t-color">
+                                        Aventura no Norte da Europa
+                                    </h4>
+                                    <div class="card-text t-color">
+                                        Explore os deslumbrantes fiordes noruegueses, testemunhe a magia da aurora boreal e conheça a rica cultura viking
+                                    </div>
+                                    <button class="btn d-block mt-3 btn-light">
+                                        Conferir
+                                    </button>
+                                </div>
+                                <footer class="card-footer">
+
+                                </footer>
+                            </article>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                            <article class="card h-100 bg">
+                                <div class="card-header">
+                                    <h3 class="t-color">Itália</h3>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1453747063559-36695c8771bd?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title t-color">
+                                        Viagem pela Bella Italia
+                                    </h4>
+                                    <div class="card-text t-color">
+                                        Viaje pelo coração da história e arte em cidades como Roma, Florença e Veneza, e delicie-se com a mundialmente famosa gastronomia italiana. A Itália é um destino para todos os sentidos
+                                    </div>
+                                    <button class="btn d-block mt-3 btn-light">
+                                        Conferir
+                                    </button>
+                                </div>
+                                <footer class="card-footer">
+
+                                </footer>
+                            </article>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                            <article class="card h-100 bg">
+                                <div class="card-header">
+                                    <h4 class="t-color">Coreia do sul</h4>
+                                </div>
+                                <img src="https://plus.unsplash.com/premium_photo-1661886333708-877148b43ae1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="card-body">
+                                <div class="card-title t-color">
+                                    Explorando a Terra da Manhã Calma
+                                </div>
+                                <div class="card-text t-color">
+                                    Descubra Seul, onde o moderno encontra o tradicional. Explore palácios históricos, alta tecnologia e a cultura pop coreana. Um país em constante transformação, mas cheio de história.
+                                </div>
+                                <button class="btn d-block mt-3 btn-light">
+                                    Conferir
+                                </button>
+                                </div>
+                                <footer class="card-footer">
+
+                                </footer>
+                            </article>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                            <article class="card h-100 bg">
+                                <div class="card-header">
+                                    <h4 class="t-color">Canadá</h4>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2011&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="card-body">
+                                    <div class="card-title t-color">
+                                        Montanhas, Lagos e Cidades Cosmopolitas
+                                    </div>
+                                    <div class="card-text t-color">
+                                        Explore as vastas paisagens canadenses, desde as Montanhas Rochosas até as cidades vibrantes como Toronto e Vancouver.
+                                    </div>
+                                    <button class="btn d-block mt-3 btn-light">
+                                        Conferir
+                                    </button>
+                                </div>
+                                <footer class="card-footer">
+
+                                </footer>
+                            </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="d-block t-color m-4 p-4 bg text-center">Sobre a Empresa</h2>
+
+        <section id="sobre">
+            <div class="container">
+                <div class="row bg  p-3 align-items-center">
+                    <!-- Coluna da Esquerda: Carousel -->
+                    <div class="col-sm-12 mb-sm-4  col-lg-6">
+                        <div id="carouselSobre" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="https://images.unsplash.com/photo-1504598318550-17eba1008a68?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Imagem 1">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://plus.unsplash.com/premium_photo-1664368832311-7fe635e32c7c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Imagem 2">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://images.unsplash.com/photo-1517868163143-6eb6c78dbf54?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Imagem 3">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSobre" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselSobre" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" class="active" data-bs-target="#carouselSobre" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carouselSobre" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carouselSobre" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 p-sm-2  col-lg-6">
+                        <div " class="container texto t-color">
+                            <h2 class="text-center mb-2">Sobre a Ramo Certo</h2>
+                            <p class="text-center lead">Na <strong>Ramo Certo</strong>, acreditamos que viajar é mais do que simplesmente visitar lugares novos — é sobre vivenciar culturas, descobrir paisagens impressionantes e criar memórias que duram para sempre. Com anos de experiência no mercado, nos especializamos em oferecer roteiros personalizados e cuidadosamente planejados, pensados para atender aos desejos e necessidades de cada viajante.</p>
+                            <p class="text-center lead">Nossos especialistas em viagem estão sempre em busca dos melhores destinos, acomodações e experiências autênticas, garantindo que cada detalhe da sua viagem seja perfeito. Trabalhamos com parceiros confiáveis ao redor do mundo para proporcionar não apenas viagens seguras, mas também inesquecíveis.</p>
+                            <p class="text-center lead">Quer você esteja buscando relaxar em uma praia paradisíaca, explorar uma cultura exótica ou se aventurar por montanhas deslumbrantes, nossa equipe estará ao seu lado, ajudando em todas as etapas do planejamento.</p>
+                            <p class="text-center lead">Na <strong>Ramo Certo</strong>, seu próximo destino não é apenas uma viagem, é uma experiência de vida.</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+
+        <h2 class="d-block t-color m-4 p-4 bg text-center">Contato</h2>
+
+        <div id="contato" class="form-group bg">
+            <div class="container mb-4">
+                <form class="p-3">
+                    <label  for="nome">Nome:</label>
+                    <input class="form-control" type="text" name="" id="nome" placeholder="Digíte seu nome">
+                    <label  for="e-mail">E-mail:</label>
+                    <input class="form-control" type="email" name="e-mail" id="e-mail" placeholder="Digíte seu e-mail">
+                    <label  for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" name="" id="mensagem" placeholder="Digíte sua mensagem"></textarea>
+                </form>
+
+                <div class="text-center">
+                    <button type="button" class="btn pe-3 ps-3 btn-success">Enviar</button>
+                </div>
+            </div>
+
+            <footer class="text-center">
+                <p class="lead">© 2024 Jhonatan Willians. Todos os direitos reservados.</p>
+            </footer>
+        </div>
+
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
